@@ -1,7 +1,13 @@
 #include<stdio.h>
+
+void print_message(const char *message)
+{
+	printf(message);
+}
+
 int main(void)
 {
-	printf("hello world.\n");
+	print_message("hello world.\n");
 	return 0;
 }
 
