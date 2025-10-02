@@ -3,6 +3,7 @@
 void print_message(const char *message)
 {
 	printf(message);
+	return;
 }
 
 int main(void)
