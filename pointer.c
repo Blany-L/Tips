@@ -1,5 +1,13 @@
 #include<stdio.h>
 
+void clear_array(double *array, int length)
+{
+	for(int i = 0; i < length; i++)
+	{
+		array[i] = 0;
+	}
+}
+
 void modify_array(double *array, int index, double value)
 {
 	// midify element of array in index.
