@@ -2,6 +2,7 @@
 
 void print_message(const char *message, int level)
 {
+	// add a log level.
 	switch(level)
 	{
 		case 0:printf("normal.\n");break;
