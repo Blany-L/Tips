@@ -1,5 +1,10 @@
 #include<stdio.h>
 
+void modify_array(double *array, int index, double value)
+{
+	array[index] = value;
+}
+
 void print_array(double *array, int length)
 {
 	for(int i = 0; i < length; i++)
