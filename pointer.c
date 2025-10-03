@@ -2,6 +2,7 @@
 
 void modify_array(double *array, int index, double value)
 {
+	// midify element of array in index.
 	array[index] = value;
 }
 
